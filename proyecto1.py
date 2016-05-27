@@ -12,10 +12,10 @@ def prob_3(b,p):
 	return res 	
 
 def prob_4(pal,lon):
-	list(pal)
-	lol= len(pal)
-	longi= lon - lol
-	res= ("*" * (longi/2), pal , "*" * (longi/2))
+	lis= list(pal)
+	lol= len(lis)
+	longi= ((lon - lol)//2)
+	res= ("*" * (longi) + pal + "*" * (longi))
 	return res
 
 
