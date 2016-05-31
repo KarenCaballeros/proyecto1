@@ -18,4 +18,11 @@ def prob_4(pal,lon):
 	res= ("*" * (longi) + pal + "*" * (longi))
 	return res
 
+def prob_5(v1, v2):
+	a= ((v1[1] * v2[2]) - (v1[2] * v2[1]))
+	b= ((v1[2] * v2[0]) - (v1[0] * v2[2]))
+	c= ((v1[0] * v2[1]) - (v1[1] * v2[0]))
+	return (a  , b  ,  c) 
 
+def prob_6(lista):
+	n= len(lista)	
